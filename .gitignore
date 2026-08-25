@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+
+# build output
+.next/
+out/
+
+# misc
+*.tsbuildinfo
+next-env.d.ts
+
+# editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# scratch / planning scripts
+replace.js
+scratch_ui_fix.js
+TRACKER.md
+
+# feature specs & internal rules (not for public repo)
+fds/
+rules/
+
+# lockfile
+pnpm-lock.yaml
